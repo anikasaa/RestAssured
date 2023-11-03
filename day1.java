@@ -21,7 +21,7 @@ public class day1 {
 
 		// second assertion
 		response.then().assertThat().body("data.id", equalTo(2)).body("data.email", equalTo("janet.weaver@reqres.in"))
-				.body("data.firstname", equalTo("Janet")).body("data.lastname", equalTo("Weaver"))
+				.body("data.first_name", equalTo("Janet")).body("data.last_name", equalTo("Weaver"))
 				.body("data.avatar", equalTo("https://reqres.in/img/faces/2-image.jpg"));
 		response.then().log().all();
 
