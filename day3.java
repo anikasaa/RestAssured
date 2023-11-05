@@ -48,7 +48,7 @@ public class day3 {
 	}
 
 	@Test
-	public void updateUser() {
+	public void updateUser() {    
 
 		String email = getSaltString() + "@gmail.com";
 		String requestBody = "{\"name\":\"Tenali Ramakrishna\", \"gender\":\"male\", \"email\":\"" + email
